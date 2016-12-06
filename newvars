@@ -22,3 +22,18 @@ replace incomenum = 259.3325 if(emdidec15==7)
 replace incomenum = 332.567 if(emdidec15==8)
 replace incomenum = 431.2383 if(emdidec15==9)
 replace incomenum = 588.3856 if(emdidec15==10)
+
+*generating income deprivation affecting children index * 
+gen idaci=.
+replace idaci = 17.1111 if(emdidec15==1)
+replace idaci = 21.02617 if(emdidec15==2)
+replace idaci = 25.8163 if(emdidec15==3)
+replace idaci = 30.395 if(emdidec15==4)
+replace idaci = 38.88604 if(emdidec15==5)
+replace idaci = 49.78505 if(emdidec15==6)
+replace idaci = 65.38498 if(emdidec15==7)
+replace idaci = 89.26245 if(emdidec15==8)
+replace idaci = 121.4663 if(emdidec15==9)
+replace idaci = 167.6287 if(emdidec15==10)
+
+

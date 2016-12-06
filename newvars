@@ -50,4 +50,16 @@ replace idaopi = 89.3569 if(emdidec15==9)
 replace idaopi = 108.9095 if(emdidec15==10)
 
 
+*generating road traffic indicator * 
+gen traffic=.
+replace traffic = 0.592231 if(emdidec15==1)
+replace traffic = 0.629157 if(emdidec15==2)
+replace traffic = 0.65747 if(emdidec15==3)
+replace traffic = 0.68295 if(emdidec15==4)
+replace traffic = 0.698553 if(emdidec15==5)
+replace traffic = 0.735116 if(emdidec15==6)
+replace traffic = 0.77702 if(emdidec15==7)
+replace traffic = 0.852874 if(emdidec15==8)
+replace traffic = 0.894674 if(emdidec15==9)
+replace traffic = 0.908925 if(emdidec15==10)
 

@@ -1,0 +1,24 @@
+gen airqual=.
+replace airqual = .941376 if(emdidec15==1)
+replace airqual = .95967 if(emdidec15==2)
+replace airqual = .972195 if(emdidec15==3)
+replace airqual = .981315 if(emdidec15==4)
+replace airqual = .993649 if(emdidec15==5)
+replace airqual = 1.023352 if(emdidec15==6)
+replace airqual = 1.071139 if(emdidec15==7)
+replace airqual = 1.142888 if(emdidec15==8)
+replace airqual = 1.181625 if(emdidec15==9)
+replace airqual = 1.180619 if(emdidec15==10)
+
+*generating income domain numerator * 
+gen incomenum=.
+replace incomenum = 57.1014 if(emdidec15==1)
+replace incomenum = 84.9543 if(emdidec15==2)
+replace incomenum = 108.774 if(emdidec15==3)
+replace incomenum = 132.0027 if(emdidec15==4)
+replace incomenum = 165.5554 if(emdidec15==5)
+replace incomenum = 205.7374  if(emdidec15==6)
+replace incomenum = 259.3325 if(emdidec15==7)
+replace incomenum = 332.567 if(emdidec15==8)
+replace incomenum = 431.2383 if(emdidec15==9)
+replace incomenum = 588.3856 if(emdidec15==10)

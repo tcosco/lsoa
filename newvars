@@ -36,4 +36,18 @@ replace idaci = 89.26245 if(emdidec15==8)
 replace idaci = 121.4663 if(emdidec15==9)
 replace idaci = 167.6287 if(emdidec15==10)
 
+*generating income deprivation affecting older people index * 
+gen idaopi=.
+replace idaopi = 23.4757 if(emdidec15==1)
+replace idaopi = 32.0646 if(emdidec15==2)
+replace idaopi = 38.3845 if(emdidec15==3)
+replace idaopi = 45.2765 if(emdidec15==4)
+replace idaopi = 52.98127 if(emdidec15==5)
+replace idaopi = 60.8387 if(emdidec15==6)
+replace idaopi = 68.04168 if(emdidec15==7)
+replace idaopi = 77.92152 if(emdidec15==8)
+replace idaopi = 89.3569 if(emdidec15==9)
+replace idaopi = 108.9095 if(emdidec15==10)
+
+
 

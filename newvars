@@ -195,7 +195,7 @@ replace	 grocerdist	=	0.4941715 	if(emdidec15==8)
 replace	 grocerdist	=	0.429187 	if(emdidec15==9)
 replace	 grocerdist	=	0.4147195 	if(emdidec15==10)
 				
-ggen	 overcrowd	=	.	
+gen	 overcrowd	=	.	
 replace	 overcrowd	=	0.0274409 	if(emdidec15==1)
 replace	 overcrowd	=	0.0381971 	 if(emdidec15==2)
 replace	 overcrowd	=	0.0471426 	if(emdidec15==3)
